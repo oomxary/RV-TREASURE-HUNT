@@ -1,0 +1,77 @@
+$(".fixjoy").hide();
+$("#hapjoy").hide();
+$(".fixirene").hide();
+$("#god").hide();
+$(".fixwendy").hide();
+$("#yay").hide();
+$(".fixseulgi").hide();
+$("#btu").hide();
+$(".fixyeri").hide();
+$("#iccyeri").hide();
+$(".youwin").hide();
+$("#start").click(function(){
+    $(".fixjoy").show();
+});
+$("#joy").dblclick(function(){
+    $(".fixwendy").show();
+});
+$("#joy").dblclick(function(){
+    $("#hapjoy").show();
+});
+$("#joy").dblclick(function(){
+    $("#joy").hide();
+});
+$("#joy").dblclick(function(){
+    $("#pinkdrink").text("Pink drink found!");
+});
+$("#wendy").hover(function(){
+    $(".fixyeri").show();
+});
+$("#wendy").hover(function(){
+    $("#wendy").hide();
+});
+$("#wendy").hover(function(){
+    $("#findirene").text("She found Irene!");
+});
+$("#wendy").hover(function(){
+    $("#yay").show();
+});
+$("#yeri").click(function(){
+    $("#iccyeri").show();
+});
+$("#yeri").click(function(){
+    $("#icc").text("주세요 달콤한 그 맛 ice cream cake~");
+});
+$("#yeri").click(function(){
+    $(".fixseulgi").show();
+});
+$("#yeri").click(function(){
+    $("#yeri").hide();
+});
+$("#seulgi").click(function(){
+    $("#btu").show();
+});
+$("#seulgi").click(function(){
+    $(".fixirene").show();
+});
+$("#seulgi").click(function(){
+    $("#seulgi").hide();
+});
+$("#seulgi").click(function(){
+    $("#rr").text("And that's why I'm the main dancer~!");
+});
+$("#irene").hover(function(){
+    $("#irene").hide();
+});
+$("#irene").hover(function(){
+    $("#god").show();
+});
+$("#irene").hover(function(){
+    $("#hate").text("And that's why I'm the leader!");
+});
+$("#irene").hover(function(){
+    $(".youwin").show();
+});
+$("#end").click(function(){
+   $("#everything").hide();
+});
