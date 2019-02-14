@@ -1,0 +1,40 @@
+body { 
+    font-family: Arial; 
+    font-size: 23px; 
+    font-style: italic; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 30px; 
+    text-align:center;
+    }
+    
+.begin , .youwin {
+    background-color: #FFC0CB;
+    text-align:center;
+    padding:40px 0px;
+}
+.fixjoy {
+    background-color: #32CD32;
+    text-align:center;
+    padding:40px 0px;
+}
+.fixirene {
+    background-color: #C21E56;
+    text-align:center;
+    padding:40px 0px;
+}
+.fixwendy {
+    background-color: #0070B8;
+    text-align:center;
+    padding:40px 0px;
+}
+.fixyeri {
+    background-color: #6C3082;
+    text-align:center;
+    padding:40px 0px;
+}
+.fixseulgi {
+    background-color: #EEB211;
+    text-align:center;
+    padding:40px 0px;
+}
